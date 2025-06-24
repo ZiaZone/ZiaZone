@@ -10,13 +10,12 @@
       background-color: #f5f2e9;
       color: #2a2a2a;
       text-align: center;
-      padding: 80px 20px 40px; /* زودت المسافة من فوق */
+      padding: 80px 20px 40px;
       font-size: 18px;
     }
 
     img.logo {
-      width: 120px;
-      max-width: 40vw;
+      width: min(20vw, 90px); /* حجم تلقائي يتناسب مع الشاشة */
       height: auto;
       margin-bottom: 20px;
     }
@@ -52,7 +51,7 @@
 
     @media (max-width: 480px) {
       body {
-        padding: 100px 10px 40px; /* أكثر نزول على الجوال */
+        padding: 100px 10px 40px;
         font-size: 16px;
       }
 
