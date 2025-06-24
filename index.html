@@ -5,22 +5,29 @@
   <title>Zia Zone</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
     body {
       font-family: Arial, sans-serif;
       background-color: #f5f2e9;
       color: #2a2a2a;
       text-align: center;
-      padding: 40px 20px;
+      padding: 40px 20px 0; /* فراغ علوي مرفوع */
       font-size: 18px;
     }
     img.logo {
       width: 450px;
       max-width: none;
       height: auto;
-      margin-bottom: 20px;
+      display: block;
+      margin: 0 auto 5px auto;
     }
     h1 {
-      margin-bottom: 30px;
+      margin-top: 0;
+      margin-bottom: 20px;
       font-size: 2.5rem;
     }
     .btn {
@@ -44,9 +51,10 @@
       font-size: 1rem;
       color: #555;
     }
+
     @media (max-width: 480px) {
       body {
-        padding: 20px 10px;
+        padding: 30px 10px 0;
         font-size: 16px;
       }
       h1 {
