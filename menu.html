@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <title>منيو البكج الشتوي – Zia Zone</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #DDDAC4;
+      color: #2a2a2a;
+      text-align: right;
+      padding: 40px 16px 20px;
+      font-size: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      direction: rtl;
+    }
+
+    img.logo {
+      width: 200px;
+      max-width: 80%;
+      height: auto;
+      margin-bottom: 12px;
+      align-self: center;
+    }
+
+    .main-title {
+      text-align: center;
+      margin-bottom: 4px;
+      color: #4a8264;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .sub-title {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 1.3rem;
+      color: #4a8264;
+    }
+
+    .menu-section {
+      background-color: #f5f2e7;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 12px 0;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .menu-section h2 {
+      margin-bottom: 4px;
+      color: #4a8264;
+    }
+
+    .menu-section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .menu-section li {
+      margin-bottom: 8px;
+      font-size: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #4a8264;
+      margin-left: 10px;
+    }
+
+    .menu-note {
+      font-size: 0.85rem;
+      color: #777;
+      margin-top: 6px;
+      text-align: right;
+      font-style: italic;
+    }
+
+    .note {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #555;
+      max-width: 400px;
+      text-align: right;
+    }
+
+    .thank-you {
+      margin-top: 12px;
+      font-size: 0.95rem;
+      color: #4a8264;
+      text-align: center;
+    }
+
+    @media (min-width: 600px) {
+      body {
+        font-size: 18px;
+        padding: 60px;
+      }
+
+      img.logo {
+        width: 300px;
+      }
+
+      .main-title {
+        font-size: 2.3rem;
+      }
+
+      .sub-title {
+        font-size: 1.5rem;
+      }
+
+      .menu-section li {
+        font-size: 1.1rem;
+      }
+
+      .menu-note {
+        font-size: 0.9rem;
+      }
+
+      .note {
+        font-size: 1rem;
+      }
+
+      .thank-you {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <img class="logo" src="https://i.imgur.com/pXlpKUV.png" alt="Zia Zone Logo" />
+
+  <div class="main-title">Zia Zone</div>
+  <div class="sub-title">منيو البكج الشتوي</div>
+
+  <!-- قسم المشروبات -->
+  <div class="menu-section">
+    <h2>المشروبات الساخنة</h2>
+    <ul>
+      <li>كرك <span class="price">10 ريال/كوب</span></li>
+      <li>بلاك كوفي <span class="price">10 ريال/كوب</span></li>
+      <li>هوت تشوكلت <span class="price">10 ريال/كوب</span></li>
+      <li>سحلب <span class="price">10 ريال/كوب</span></li>
+    </ul>
+    <div class="menu-note">* الحد الأدنى للطلب: 20 كوب</div>
+  </div>
+
+  <!-- قسم الحلى -->
+  <div class="menu-section">
+    <h2>قسم الحلى</h2>
+    <ul>
+      <li>بسكويت الزنجبيل <span class="price">3 ريال/الحبة</span></li>
+      <li>تشيز بسبوسة ميني | 24 قطعة <span class="price">100 ريال</span></li>
+      <li>كيكة التمر | 8 كاسات <span class="price">100 ريال</span></li>
+      <li>تراميسو | 8 كاسات <span class="price">100 ريال</span></li>
+      <li>قشد | 8 كاسات <span class="price">100 ريال</span></li>
+    </ul>
+  </div>
+
+  <!-- قسم الكاميرا الفورية -->
+  <div class="menu-section">
+    <h2>الكاميرا الفورية</h2>
+    <ul>
+      <li>10 صور <span class="price">100 ريال</span></li>
+      <li>20 صورة <span class="price">200 ريال</span></li>
+    </ul>
+  </div>
+
+  <!-- ملاحظات عامة -->
+  <div class="note">
+    الأسعار غير شاملة التوصيل والتركيب.
+  </div>
+
+  <div class="thank-you">
+    شكرًا لاختياركم زيا زون 🌿
+  </div>
+</body>
+</html>
